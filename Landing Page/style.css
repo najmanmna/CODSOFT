@@ -1,0 +1,333 @@
+/* Reset default margin and padding for all elements */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo img {
+    width: 450px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 43px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: #dd922f;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background-image: url(aboutng.png);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 33px;
+
+
+}
+
+.overlay2 {
+    background-color: rgba(209, 163, 0, 0.7);
+    padding: 100px;
+    color: #1f2e3b;
+
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.overlay p {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.overlay2 p {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e68200;
+}
+
+.slogan {
+    padding: 100px;
+    background-color: #1f2e3b;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.slogan h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.slogan h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #f7941e;
+}
+
+/* Style the features section */
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal-width columns */
+    gap: 0px 30px;
+    /* Gap between columns */
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 90px;
+
+}
+
+.box {
+    box-shadow: 7px 10px 4px rgba(0, 0, 0, 0.1)
+}
+
+.box .row {
+
+    font: 1.2rem sans-serif;
+    font-weight: 50;
+    padding: 30px;
+}
+
+.feature {
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #1f2f3b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+}
+
+
+
+.feature h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.feature img {
+    filter: invert(100%);
+    width: 100px;
+}
+
+
+.box .row p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact .contactinfo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact .explore {
+
+    flex-direction: column;
+}
+
+/* Style the contact section */
+.contact {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    height: 208px;
+    padding: 53px 0 67px 0;
+    background-color: #333;
+    color: white;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: #e68200;
+}
+
+.navlinks {
+    text-align: left;
+    list-style: none;
+    display: inline;
+}
+
+.navlinks li {
+    margin: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks a:hover {
+    color: #dd922f;
+}
+
+.contactinfo img {
+    width: 450px;
+}
+
+.contactinfo p {
+    margin-left: 20px;
+}
+
+.navlinks {
+    text-align: left;
+    list-style: none;
+    display: inline;
+}
+
+.navlinks li {
+    margin: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks a:hover {
+    color: #dd922f;
+}
+
+.contactinfo img {
+    width: 450px;
+}
+
+.contactinfo p {
+    margin-left: 20px;
+}
+
+/* Style the footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #aea2a2;
+    color: white;
+}
+
+.contact-form {
+
+
+    background-color: #706161;
+    padding: 60px;
+    border-radius: 46px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    width: 250px;
+}
+
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: black;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
